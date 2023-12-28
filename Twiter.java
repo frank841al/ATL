@@ -4,9 +4,10 @@ class HelloWorld {
     public static void main(String[] args) {
         String nombre="";
         Scanner cs =new Scanner(System.in);
-        System.out.println("ingresa el pais");
+        System.out.println("ingresa el nombre");
         nombre =cs.nextLine();
-        System.out.println("https://twitter.com/search?q="+nombre);
+        String url="https://twitter.com/search?q="+nombre;
+        System.out.println("El en twiter es : "+url);
        
   
     }
