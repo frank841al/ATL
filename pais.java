@@ -6,7 +6,8 @@ class HelloWorld {
         Scanner cs =new Scanner(System.in);
         System.out.println("ingresa el pais");
         pais =cs.nextLine();
-        System.out.println("https://www.google.com/maps/search/"+pais);
+        String url="https://www.google.com/maps/search/"+pais;
+        System.out.println("El enlace del google maps es : "+url);
        
   
     }
